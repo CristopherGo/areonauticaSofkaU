@@ -1,17 +1,16 @@
-## :tw-1f680: Funcionamiento de la Aplicacion Naves Espaciales 
+## Funcionamiento de la Aplicacion Naves Espaciales 
 ###### Las herramientas utilizadas para desarrollar esta aplicacion fueron:
 - Xampp con MySQL
 - Visual Studio
 
 ###Ejecutar app 
-:tw-25b6:
-##### :tw-2705: Crear base de datos:
+##### Crear base de datos:
 1. Abrimos xampp e iniciammos los servidores locales MySQL y Apache
 2. Buscamos en nuetro navegador: http://localhost/phpmyadmin/
 3. Creamos una nueva base de datos con el nombre "vehiculosespaciales"
 4. Seleccionamos la base de datos creada e importamos el archivo: **"navesespaciales.sql"**
 
-##### :tw-2705:  Iniciamos con Node:
+##### Iniciamos con Node:
 1. Con nodejs instalado en nuestra pc, abre el proyecto con *Visual Studio* y ejecuta la** Terminal.**
 2. Ejecuta el siguiente comando: "node .\src\app.js"
 3. Si todo va bien, mostrara un mensaje asi  **server runnning in port:  4000**
@@ -19,4 +18,4 @@
 4. Nos cargargara la pagina inicial de la aplicacion web Naves Espaciales.
 
 
-#### Eso es todo amigos... :tw-1f3c1:
+#### Eso es todo amigos...

@@ -3,7 +3,7 @@
 - Xampp con MySQL
 - Visual Studio
 
-###Ejecutar app 
+### Ejecutar app 
 ##### Crear base de datos:
 1. Abrimos xampp e iniciammos los servidores locales MySQL y Apache
 2. Buscamos en nuetro navegador: http://localhost/phpmyadmin/

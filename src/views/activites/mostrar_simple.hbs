@@ -1,0 +1,60 @@
+<div class="content mt-5">
+    <div class="row justify-content-md-center ">
+        <div class="col-sm-6 d-grid gap-2 text-center">
+            <hr>
+            <h2>Consulta Simple</h2>
+            <hr><br>
+            <table class="table table-striped border">
+                <thead>
+                    <tr>
+                        <th>Nombre</th>
+                        <th>Tipo</th>
+                        <th>Origen</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each naves}}
+                    <tr>
+                        <td class="py-3 px-6">{{nombre}}</td>
+                        <td class="p-3">{{tipo}}</td>
+                        <td class="p-3 text-center">{{origen}}</td>
+                    </tr>
+
+                    {{/each}}
+                </tbody>
+            </table>
+
+            <div class="col-sm-6 d-grid gap-2 text-center">
+                {{#each naves}}
+                <button type="button" class="btn btn-warning mt-2" data-toggle="modal" data-target="#exampleModal">
+                    Simular un viaje en esta nave
+                </button>
+                <div class="modal fade" id="exampleModal" tabindex="-1" role="dialog"
+                    aria-labelledby="exampleModalLabel" aria-hidden="true">
+                    <div class="modal-dialog" role="document">
+                        <div class="modal-content">
+                            <div class="modal-header">
+                                <h5 class="modal-title" id="exampleModalLabel">Viajando en {{nombre}}</h5>
+                                <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                                    <span aria-hidden="true">&times;</span>
+                                </button>
+                            </div>
+                            <div class="modal-body">
+                                - Iniciando Motores... <br>
+                                - Velocidad maxima: {{velocidad}} km/h <br>
+                                
+                            </div>
+                            <div class="modal-footer">
+                                <button type="button" class="btn btn-danger" data-dismiss="modal">DETENER</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                {{/each}}
+            </div>
+        </div>
+    </div>
+
+
+</div>

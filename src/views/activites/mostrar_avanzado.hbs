@@ -1,0 +1,39 @@
+<div class="content mt-5">
+    <div class="row justify-content-md-center ">
+        <div class="col-sm-6 d-grid gap-2 text-center">
+            <hr><h2>Consulta Avanzada</h2><hr><br>
+            <table class="table table-striped">
+                <thead>
+                    <tr>
+                        <th>Id</th>
+                        <th>Nombre</th>
+                        <th>Tipo</th>
+                        <th>Origen</th>
+                        <th>Peso</th>
+                        <th>Potencia</th>
+                        <th>Velocidad</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    {{#each naves}}
+                    <tr>
+                        <td class="py-3 px-6">{{id}}</td>
+                        <td class="p-3">{{nombre}}</td>
+                        <td class="p-3 text-center">{{tipo}}</td>
+                        <td class="py-3 px-6">{{origen}}</td>
+                        <td class="p-3">{{peso}}</td>
+                        <td class="p-3 text-center">{{potencia}}</td>
+                        <td class="p-3 text-center">{{velocidad}}</td>
+
+                    </tr>
+
+                    {{/each}}
+                </tbody>
+            </table>
+
+
+        </div>
+    </div>
+
+
+</div>

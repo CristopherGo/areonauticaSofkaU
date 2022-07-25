@@ -1,0 +1,47 @@
+<br><br>
+<div class="container">
+
+    <div class="row justify-content-md-center">
+
+        <div class="col-sm-7 border">
+            <h2>Busqueda Simple</h2>
+            <hr>
+            <form action="/mostrar_simple" method="post">
+                <div class="form-row">
+                    <div class="form-group  mt-2">
+                        <input name='nombre' type="text" class="form-control" id="name" placeholder="nombre de nave">
+                    </div>
+                </div>
+                <hr>
+                <button type="submit" class="btn btn-primary">Buscar</button><br><br>
+            </form>
+        </div>
+
+    </div>
+    <br>
+    <div class="row justify-content-md-center">
+
+        <div class="col-sm-7 border">
+            <h2>Busqueda Avanzada</h2>
+            <hr>
+            <form action="/mostrar_avanzado" method="post">
+                <div class="form-row">
+                    <div class="form-group mt-2 ">
+                        <label for="tipo" class="label mb-2">Nave</label>
+                        <select name="tipo" class="form-control" id="tipo">
+                            <option>Lanzadera</option>
+                            <option>Roboticas</option>
+                            <option>Tripuladas</option>
+                        </select>
+                    </div>
+                    <div class="form-group  mt-2">
+                        <input name='potencia' type="text" class="form-control" id="name" placeholder="potencia minima">
+                    </div>
+                </div>
+                <hr>
+                <button type="submit" class="btn btn-success">Buscar</button><br><br>
+            </form>
+        </div>
+
+    </div>
+</div>

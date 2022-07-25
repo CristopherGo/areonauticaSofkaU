@@ -1,0 +1,62 @@
+<br><br>
+<div class="container">
+
+    <div class="row justify-content-md-center">
+
+        <div class="col-sm-7 border">
+            <h2>Crea tu Nave</h2>
+            <hr>
+            <form action="/crear/guardar" method="post">
+                <div class="form-row">
+                    <div class="form-group  mt-2">
+                        <label>Nave:</label>
+                        <input name ='nombre' type="text" class="form-control" id="name" placeholder="nombre de tu nave">
+                    </div>
+                    <div class="form-group mt-2">
+                        <label for="tipo">Tipo de Nave</label>
+                        <select name="tipo" class="form-control" id="tipo">
+                            <option>Lanzadera</option>
+                            <option>Roboticas</option>
+                            <option>Tripuladas</option>
+                        </select>
+                    </div>
+                    <div class="form-group mt-2">
+                        <label>Origen:</label>
+                        <br>
+                        <input name ='origen' type="text" class="form-control" id="name" placeholder="">
+                    </div>
+                    <br>
+                    <div class="row">
+                        <div class="col-4">
+                            <div class="form-group row">
+                                <label for="pot" class="col-sm-5 col-form-label">Potencia:</label>
+                                <div class="col-sm-6">
+                                    <input name ='potencia' type="text" class="form-control" id="pot" placeholder="M caballos de fuerza">
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col">
+                            <div class="form-group row">
+                                <label for="pot" class="col-sm-5 col-form-label">Velocidad Maxima:</label>
+                                <div class="col-sm-4">
+                                    <input name ='velocidad' type="text" class="form-control" id="vel" placeholder="km/h">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <br>
+                    <div class="row form-group mt-2">
+                        <div class="col-4">
+                            <label>Peso de la nave:</label>
+                            <br>
+                            <input name ='peso' type="text" class="form-control" id="peso" placeholder="M Toneladas">
+                        </div>
+                    </div><br>
+                </div>
+                <hr>
+                    <button type="submit" class="btn btn-primary">Enviar</button><br><br>
+            </form>
+        </div>
+
+    </div>
+</div>

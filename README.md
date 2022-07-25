@@ -9,7 +9,7 @@
 2. Buscamos en nuetro navegador: http://localhost/phpmyadmin/
 3. Creamos una nueva base de datos con el nombre "vehiculosespaciales"
 4. Seleccionamos la base de datos creada e importamos el archivo: **"navesespaciales.sql"**
-<hr>
+
 ##### Iniciamos con Node:
 1. Con nodejs instalado en nuestra pc, abre el proyecto con *Visual Studio* y ejecuta la** Terminal.**
 2. Ejecuta el siguiente comando: "node .\src\app.js"
